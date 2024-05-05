@@ -1,9 +1,21 @@
 import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/profile_img.svg'
+import resume from '../../assets/My_Resume.pdf'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
+
+  const downloadResume = () => {
+    const resumeUrl = resume; // Use the imported resume file directly
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'My_Resume.pdf'; // Set the filename for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };  
+
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
