@@ -47,6 +47,10 @@
     display: none;
 }
 
+.nav-mob-open {
+    display: none;
+}
+
 @media(max-width:768px) {
 
     .navbar {
@@ -83,5 +87,12 @@
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
+    }
+
+    .nav-menu li {
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: row;
+        gap: 20px;
     }
 }
