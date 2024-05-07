@@ -64,14 +64,14 @@
     .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
+        right: 20px; /*change*/
     }
 
     .nav-mob-close {
         display: block;
         position: relative;
         top: 30px;
-        left: 290px;
+        left: 260px; /*change*/
         width: 30px;
     }
 
@@ -82,7 +82,7 @@
         top: 0;
         gap: 30px;
         background-color: #1F0016;
-        width: 350px;
+        width: 310px; /*change*/
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
