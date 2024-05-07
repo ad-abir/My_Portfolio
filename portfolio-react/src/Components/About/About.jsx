@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id='about' className='about'>
         <div className="about-title">
-            <h1>About me</h1>
+            <h1>About Me</h1>
             <img src={theme_pattern} alt="" />
         </div>
         <div className="about-sections">
@@ -16,8 +16,17 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-                    <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                    <p>As a dedicated full-stack developer, I thrive on innovation and problem-solving. In the past two years, I've honed my skills across various technologies:</p>
+                    <p>
+                        <li>Languages: C/C++, Java, Python, PHP, Dart (for Flutter), Solidity</li>
+                        <li>Front-end: HTML, CSS, JavaScript, Bootstrap, React JS, Flutter</li>
+                        <li>Back-end: Laravel, Firebase</li>
+                        <li>Database: MySQL</li>
+                        <li>CMS: WordPress (Elementor)</li>
+                        <li>Blockchain: Solidity</li>
+                    </p>
+                    <p>My focus is on pushing the boundaries in web, mobile, and blockchain development, staying updated with emerging tech to deliver impactful solutions.</p>
+                    
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}} /></div>
