@@ -13,7 +13,7 @@
 
 .contact-title h1 {
     padding: 0px 30px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .contact-left h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     background: linear-gradient(270deg, #F53844 80%, #42378F 100%);
     background-clip: text;
@@ -107,7 +107,7 @@
     border-radius: 50px;
     background: linear-gradient(264deg, #F53844 -5.09%, #42378F 106.28%);
     font-size: 22px;
-    padding: 20px 60px;
+    padding: 20px 50px;
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
