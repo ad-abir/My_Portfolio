@@ -6,7 +6,7 @@
 }
 
 .hero img {
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .hero h1 {
@@ -31,6 +31,41 @@
     line-height: 40px;
 }
 
+.social-links {
+    max-width: 100%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.social-linkedin, 
+.social-github, 
+.social-facebook, 
+.social-instagram {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    color: white;
+    transition: 0.5s;
+}
+
+.social-linkedin:hover {
+    transform: scale(1.25);
+}
+
+.social-github:hover {
+    transform: scale(1.25);
+}
+
+.social-facebook:hover {
+    transform: scale(1.25);
+}
+
+.social-instagram:hover {
+    transform: scale(1.25);
+}
+
 .hero-action {
     display: flex;
     align-items: center;
@@ -50,7 +85,7 @@
 
 .hero-resume {
     font-size: 20px;
-    padding: 13px 30px;
+    padding: 13px 24px;
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
@@ -81,6 +116,10 @@
         font-size: 20px;
         line-height: 32px;
         margin: 10px 0px;
+    }
+
+    .social-links {
+
     }
 
     .hero-action {
