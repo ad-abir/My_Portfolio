@@ -136,9 +136,9 @@
         flex-direction: column;
     }
 
-    /* .about-left {
-        display: none;
-    } */
+    .about-left {
+        margin-left: 22%;
+    }
 
     .about-para {
         font-size: 18px;
