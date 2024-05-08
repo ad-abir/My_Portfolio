@@ -1,8 +1,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 10px 170px;
+    justify-content: center;
+    margin: 14px 170px;
 }
 
 .nav-menu {
@@ -13,18 +13,18 @@
     font-size: 20px;
 }
 
-.nav-connect {
+/* .nav-connect {
     padding: 10px 20px;
     border-radius: 50px;
     background: linear-gradient(267deg, #F53844 0.36%, #42378F 102.06%);
     font-size: 18px;
     cursor: pointer;
     transition: 0.5s;
-}
+} */
 
-.nav-connect:hover {
+/* .nav-connect:hover {
     transform: scale(1.05);
-}
+} */
 
 .nav-menu li {
     display: flex;
@@ -36,6 +36,10 @@
 .nav-menu li img {
     display: flex;
     margin: auto;
+}
+
+.nav-menu li:hover p {
+    color: rgb(234, 18, 223);
 }
 
 .anchor-link {
