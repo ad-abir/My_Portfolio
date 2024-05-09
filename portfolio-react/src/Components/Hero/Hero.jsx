@@ -23,7 +23,7 @@ const Hero = () => {
         <img src={profile_img} alt="" />
         <h1>
           <span>
-            <a href="https://www.linkedin.com/in/ad-abir/">I'm Abhishek Das,</a>
+            <a href="https://www.linkedin.com/in/ad-abir/">I'm Abhishek Das, </a>
           </span> 
           Full Stack Developer based in Bangladesh.
         </h1>
