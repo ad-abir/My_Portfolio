@@ -34,6 +34,18 @@
     height: 510px;
 }
 
+.about-left img {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.about-left img:hover {
+    border-color: transparent;
+    box-shadow: 0 0 20px 0 rgba(245, 56, 68, 0.7), 0 0 40px 0 rgba(66, 55, 143, 0.7);
+    transform: scale(1.02);
+}
+
+
 .about-right {
     display: flex;
     flex-direction: column;
