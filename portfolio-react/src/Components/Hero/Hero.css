@@ -9,6 +9,19 @@
     margin-top: 60px;
 }
 
+.hero img {
+    margin-top: 60px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hero img:hover {
+    transform: scale(1.02);
+    border-color: #F53844;
+    box-shadow: 0 0 20px #F53844, 0 0 40px #42378F, inset 0 0 20px #F53844, inset 0 0 40px #42378F;
+}
+
 .hero h1 {
     margin-top: 20px;
     text-align: center;
@@ -22,6 +35,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
 .hero p {
@@ -50,18 +64,9 @@
     transition: 0.5s;
 }
 
-.social-linkedin:hover {
-    transform: scale(1.25);
-}
-
-.social-github:hover {
-    transform: scale(1.25);
-}
-
-.social-facebook:hover {
-    transform: scale(1.25);
-}
-
+.social-linkedin:hover,
+.social-github:hover,
+.social-facebook:hover,
 .social-instagram:hover {
     transform: scale(1.25);
 }
