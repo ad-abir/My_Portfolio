@@ -21,7 +21,12 @@ const Hero = () => {
   return (
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
-        <h1><span>I'm Abhishek Das,</span> Full Stack Developer based in Bangladesh.</h1>
+        <h1>
+          <span>
+            <a href="https://www.linkedin.com/in/ad-abir/">I'm Abhishek Das,</a>
+          </span> 
+          Full Stack Developer based in Bangladesh.
+        </h1>
         <p>I am a full stack developer from Dhaka, Bangladesh with 2 years of experience in multiple companies like WID and GAOTek Inc.</p>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/ad-abir/" target="_blank" className="social-linkedin">
