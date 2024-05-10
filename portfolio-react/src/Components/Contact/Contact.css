@@ -13,8 +13,12 @@
 
 .contact-title h1 {
     padding: 0px 30px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
+}
+
+.contact-title h1:hover {
+    transform: scale(1.2);
 }
 
 .contact-title img {
@@ -63,6 +67,10 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.contact-detail a {
+    text-decoration: none;
 }
 
 .contact-right {
