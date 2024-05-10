@@ -42,13 +42,19 @@ const Contact = () => {
                 <p>I'm currently available to take new project, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
-                        <img src={mail_icon} alt="" /> <p>abhishek.das0023@gmail.com</p>
+                        <a href="mailto:abhishek.das0023@gmail.com">
+                            <img src={mail_icon} alt="" /> <p>abhishek.das0023@gmail.com</p>
+                        </a>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /> <p>+880-1710-733270</p>
+                        <a href="tel:+8801710733270">
+                            <img src={call_icon} alt="" /> <p>+880-1710-733270</p>
+                        </a>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /> <p>Dhaka, Bangladesh</p>
+                        <a href="https://yourwebsite.com">
+                            <img src={location_icon} alt="" /> <p>Dhaka, Bangladesh</p>
+                        </a>
                     </div>
                 </div>
             </div>
