@@ -13,8 +13,9 @@
 
 .about-title h1 {
     padding: 0px 30px;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
+    transition: 0.3s;
 }
 
 .about-title img {
@@ -22,6 +23,10 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+.about-title h1:hover {
+    transform: scale(1.2);
 }
 
 .about-sections {
