@@ -31,15 +31,17 @@
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-.nav-menu li img {
+/* .nav-menu li img {
     display: flex;
     margin: auto;
-}
+} */
 
 .nav-menu li:hover p {
     color: rgb(234, 18, 223);
+    transform: scale(1.2);
 }
 
 .anchor-link {
