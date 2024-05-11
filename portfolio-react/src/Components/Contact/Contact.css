@@ -63,13 +63,10 @@
     font-size: 22px;
 }
 
-.contact-detail {
+.contact-detail a {
     display: flex;
     align-items: center;
     gap: 20px;
-}
-
-.contact-detail a {
     text-decoration: none;
 }
 
