@@ -52,7 +52,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="contact-detail">
-                        <a href="https://yourwebsite.com">
+                        <a href="https://maps.app.goo.gl/ScVGuYdoNH7u4am97?g_st=ic">
                             <img src={location_icon} alt="" /> <p>Dhaka, Bangladesh</p>
                         </a>
                     </div>
