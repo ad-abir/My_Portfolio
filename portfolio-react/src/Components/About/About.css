@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 40px;
 }
 
 .about-title {
@@ -50,7 +50,6 @@
     transform: scale(1.02);
 }
 
-
 .about-right {
     display: flex;
     flex-direction: column;
@@ -61,7 +60,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 }
 
@@ -79,8 +78,8 @@
 }
 
 .about-skill p {
-    min-width: 150px;
-    font-size: 20px;
+    min-width: 100px;
+    font-size: 15px;
     font-weight: 500;
 }
 
