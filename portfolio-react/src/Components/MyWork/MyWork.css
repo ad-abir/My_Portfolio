@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 40px;
 }
 
 .mywork-title {
@@ -15,6 +15,7 @@
     padding: 0px 30px;
     font-size: 70px;
     font-weight: 600;
+    transition: 0.3s;
 }
 
 .mywork-title h1:hover {
